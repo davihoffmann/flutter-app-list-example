@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_list_example/pages/grid_view_example.dart';
 import 'package:flutter_app_list_example/pages/list_view_example.dart';
+import 'package:flutter_app_list_example/pages/list_view_example_service.dart';
 import 'package:flutter_app_list_example/pages/page_view_example.dart';
 
 class DrawerPage extends StatelessWidget {
@@ -33,6 +34,15 @@ class DrawerPage extends StatelessWidget {
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
                 return GridViewExample();
+              }));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.arrow_right),
+            title: Text("List view Normal - Service"),
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return ListViewServiceExample();
               }));
             },
           )
