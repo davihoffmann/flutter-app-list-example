@@ -16,11 +16,16 @@ class ListViewServiceExample extends StatelessWidget {
   _body() {
     final dogs = DogService.getAllDogsNormal();
 
-    List<Widget> widgets = List<Widget>();
-
+      /*
+      List<Widget> widgets = List<Widget>();
       for(Dog dog in dogs) {
         widgets.add(_img(dog));
       }
+      */
+
+      final widgets = dogs.map<Widget>((Dog dog) {
+        return _img(dog);
+      }).toList();
 
     return ListView(
       children: widgets,

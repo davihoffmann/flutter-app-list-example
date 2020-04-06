@@ -2,7 +2,7 @@ import 'package:flutter_app_list_example/domain/dog.dart';
 
 class DogService {
 
-  static getAllDogsNormal() {
+  static List<Dog> getAllDogsNormal() {
 
     List<Dog> dogs = List<Dog>();
     dogs.add(Dog("Cachorro 1", "dog1.png"));
