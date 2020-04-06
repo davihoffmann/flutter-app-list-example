@@ -1,0 +1,26 @@
+{
+    "dataAula": "11/05/2019",
+    "qtdeAlunos": 10,
+    "lista": [
+        {
+            "nome": "Cachorro 1",
+            "foto": "dog1.png"
+        },
+        {
+            "nome": "Cachorro 1",
+            "foto": "dog2.png"
+        },
+        {
+            "nome": "Cachorro 1",
+            "foto": "dog3.png"
+        },
+        {
+            "nome": "Cachorro 1",
+            "foto": "dog4.png"
+        },
+        {
+            "nome": "Cachorro 1",
+            "foto": "dog5.png"
+        }
+    ]
+}
