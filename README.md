@@ -1,6 +1,11 @@
-# flutter_app_list_example
+# App Flutter exemplos de implementações com List
 
-A new Flutter project.
+Projeto de exemplo de algumas implementações de List
+
+Como por exemplo:
+    - ListView
+    - Pageview
+    - GridView
 
 ## Getting Started
 
